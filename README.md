@@ -15,3 +15,10 @@ Approaching this from an anthropological perspective ensures practical language 
 - Cultural quizzes and insights.
 - User-friendly UI/UX design.
 - Advanced features like audio playback and search functionality.
+
+## Stakeholders
+
+- Creator and Developer: Taylor Bisset
+- Anthropology Mentor: Isabelle Miller
+- Computer Science Mentor: TBD
+- End Users
