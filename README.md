@@ -10,7 +10,11 @@ Explore essential survival phrases, cultural insights, and interactive quizzes t
 - Interactive elements for language learning. 
 - Cultural quizzes and insights. 
 - User-friendly UI/UX design. 
-- Advanced features like audio playback and search functionality. 
+- Advanced features like audio playback and search functionality.
+
+## Project Tasks 
+
+Please refer to the [Project Tasks](PROJECT_TASKS.md) file for a detailed breakdown of project tasks and subtasks. 
 
 ## Stakeholders 
 
