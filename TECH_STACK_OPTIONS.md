@@ -1,3 +1,5 @@
+# Technology options 
+
 | Category                | Option 1                                                  | Option 2                                              | Option 3                                             |
 |-------------------------|-----------------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
 | **Frontend**            | **Flutter**<br>*Pros*: Single codebase, high performance.<br>*Cons*: Learning curve for Dart. | **React Native**<br>*Pros*: Large community, near-native performance.<br>*Cons*: Can be complex for beginners. | **Ionic**<br>*Pros*: Web technologies, cross-platform.<br>*Cons*: Not as performant as native apps. |
