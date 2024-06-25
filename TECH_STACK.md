@@ -66,7 +66,7 @@
 *Reason*: Figma supports real-time collaboration, making it easier to design and iterate on your app’s UI/UX.
 
 ### Version Control
-**GitHub**<br>
+**GitHub**<br> 
 *Pros*: Collaborative development, versioning, code review.<br>
 *Cons*: Learning curve for beginners.<br>
 *Reason*: GitHub is widely used for version control and collaboration, essential for tracking changes and working with others.
