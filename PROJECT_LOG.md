@@ -4,16 +4,15 @@
 
 <br><br><br> 
 - - - - - - - - - - - - - - - - - - - - 
-<br>
 
-## *Sample Logs*
+### *Sample Logs*
 
-### 29 September 2024 
-Tentative roadmap built. 
+## 29 September 2024 
+Built the tentative roadmap. 
 
-Emailed sent to discuss mentorship for project. 
+Emails were sent to instructors to discuss mentorship for this project. 
 
-### 30 September 2024 
-Flutter extenstion installed for VS Code. 
+## 30 September 2024 
+Flutter extension was installed for VS Code. 
 
-GitHub repository initiated for project. 
+GitHub repository created for the project. 
