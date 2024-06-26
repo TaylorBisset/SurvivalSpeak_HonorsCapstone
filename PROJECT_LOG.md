@@ -1,18 +1,76 @@
 # Project Log 
 
+#### Step 1: Download Flutter SDK (software development kit) 
+```
+cd ~/Downloads
+curl -LO https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.3.10-stable.tar.xz
+```
+
+#### Step 2: Extract the SDK 
+```
+sudo tar xf ~/Downloads/flutter_linux_3.3.10-stable.tar.xz -C /opt
+``` 
+
+#### Step 3: Add Flutter to PATH 
+```
+export PATH="$PATH:/opt/flutter/bin"
+echo 'export PATH="$PATH:/opt/flutter/bin"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+#### Step 4: Verify Installation 
+```
+flutter doctor
+``` 
+
+#### Step 5: Install Dependencies 
+```
+sudo apt-get update
+sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev
+```
+
+#### Step 6: Download Android Studio 
+Web Search: https://developer.android.com/studio#:~:text=Download%20the%20latest%20version%20of%20Android%20Studio
+<br> 
+##### Linux (64-bit) *android-studio-2024.1.1.11-linux.tar.gz* 
+<br> 
+
+#### Step 7: Install Android Studio 
+```
+cd ~/Downloads
+sudo unzip android-studio-ide-*.zip -d /opt
+sudo tar -xzvf android-studio-2024.1.1.11-linux.tar.gz -C /opt
+sudo /opt/android-studio/bin/studio.sh
+```
+
+#### Step 8: Launch and Set up Android SDK 
+```
+/opt/android-studio/bin/studio.sh
+```
+
+#### Step 9: Accept Android Licenses 
+```
+flutter doctor --android-licenses 
+```
 
 
-<br><br><br> 
+
+<br><br>
+
+## 25 June 2024
+Installed Flutter SDK. 
+
+<br><br> 
 - - - - - - - - - - - - - - - - - - - - 
 
-### *Sample Logs*
+#### *Sample Logs*
 
-## 29 September 2024 
+### 29 September 2024 
 Built the tentative roadmap. 
 
 Emails were sent to instructors to discuss mentorship for this project. 
 
-## 30 September 2024 
+### 30 September 2024 
 Flutter extension was installed for VS Code. 
 
 GitHub repository created for the project. 
