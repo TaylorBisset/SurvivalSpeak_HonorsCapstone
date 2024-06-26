@@ -57,8 +57,10 @@ flutter doctor --android-licenses
 
 <br><br>
 
-## 25 June 2024
-Installed Flutter SDK. 
+## 24 - 26 June 2024
+Setup of the programming environment. 
+Issues with memory management in the virtual machine. 
+Linux working memory allocation research and implementation. 
 
 <br><br> 
 - - - - - - - - - - - - - - - - - - - - 
