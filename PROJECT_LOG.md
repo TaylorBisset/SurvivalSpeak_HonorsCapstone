@@ -12,10 +12,25 @@ Follow installation instructions for VSCode
 https://www.theodinproject.com/lessons/foundations-text-editors#step-1-download-vscode
 
 VS Code Extenstions 
+
 - Prettier - Code formatter 
   - Prettier.io 
 - Code Spell Checker 
   - streetsidesoftware.com 
+- Live Server 
+  - Ritwick Dey 
+- GitLens — Git supercharged 
+  - gitkraken.com 
+- Flutter 
+  - dartcode.org 
+- Dart 
+  - dartcode.org 
+- HTML CSS Support 
+  - ecmel 
+- ESLint 
+  - microsoft.com 
+- Path Intellisense 
+  - christiankohler.net 
 
 ## Set up Development Environment 
 
