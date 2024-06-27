@@ -28,7 +28,7 @@
 8. ESLint ([microsoft.com](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint))
 9. JavaScript Debugger (Nightly) ([microsoft.com](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly))
 10. Path Intellisense ([christiankohler.net](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense))
-
+---
 ## Step 3: Set Up Development Environment
 
 ### Update and Install Essential Packages
@@ -45,7 +45,7 @@ source ~/.bashrc
 sudo apt install clang cmake ninja-build pkg-config
 sudo snap install curl
 ```
-Install Java Development Kit
+### Install Java Development Kit
 ```
 sudo apt update
 sudo apt install openjdk-8-jdk
@@ -56,48 +56,48 @@ export JAVA_HOME=/usr/lib/jvm/openjdk-8
 export PATH=$JAVA_HOME/bin:$PATH
 source ~/.bashrc
 ```
-Install GTK Library
+### Install GTK Library
 ```
 sudo apt install libgtk-3-dev
 sudo apt install libgtk-3-dev
 dpkg -l libgtk-3-dev
 ```
-Step 4: Install Flutter SDK
-Download and Extract Flutter SDK
+## Step 4: Install Flutter SDK
+### Download and Extract Flutter SDK
 ```
 cd ~/Downloads
 curl -LO https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.3.10-stable.tar.xz
 sudo tar xf ~/Downloads/flutter_linux_3.3.10-stable.tar.xz -C /opt
 ```
-Add Flutter to PATH
+### Add Flutter to PATH
 ```
 export PATH="$PATH:/opt/flutter/bin"
 echo 'export PATH="$PATH:/opt/flutter/bin"' >> ~/.bashrc
 source ~/.bashrc
 ```
-Verify Installation
+### Verify Installation
 ```
 flutter doctor
 ```
-Install Flutter Dependencies
+### Install Flutter Dependencies
 ```
 sudo apt-get update
 sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev
 ```
-Step 5: Install Android Studio
-Download Android Studio
+## Step 5: Install Android Studio
+## Download Android Studio
 Visit the Android Studio download page and download the latest Linux (64-bit) version: android-studio-2024.1.1.11-linux.tar.gz.
-Install Android Studio
+### Install Android Studio
 ```
 cd ~/Downloads
 sudo tar -xzvf android-studio-2024.1.1.11-linux.tar.gz -C /opt
 sudo /opt/android-studio/bin/studio.sh
 ```
-Launch and Set Up Android SDK
+### Launch and Set Up Android SDK
 ```
 /opt/android-studio/bin/studio.sh
 ```
-Accept Android Licenses
+### Accept Android Licenses
 ```
 flutter doctor --android-licenses
 ```
