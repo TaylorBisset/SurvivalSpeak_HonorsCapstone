@@ -1,45 +1,65 @@
 # Project Log 
 
-Follow installation instructions for **Virtual Machine (Recommended)** VirtualBox and Xubuntu 
+# Project Setup Instructions
 
-https://www.theodinproject.com/lessons/foundations-installations#step-1-download-virtualbox-and-xubuntu
-- Base Memory: 8192 MB 
-- Processors: 4 
-- Storage: Controller SATA with Xubuntu.vdi 60.00 GB
+## Step 1: Set Up Virtual Machine
 
-Follow installation instructions for VSCode 
+### Install VirtualBox and Xubuntu
+1. Follow the installation instructions for VirtualBox and Xubuntu:
+   [VirtualBox and Xubuntu Installation Guide](https://www.theodinproject.com/lessons/foundations-installations#step-1-download-virtualbox-and-xubuntu)
+2. Configure the virtual machine:
+   - **Base Memory:** 8192 MB
+   - **Processors:** 4
+   - **Storage:** Controller SATA with Xubuntu.vdi 60.00 GB
 
-https://www.theodinproject.com/lessons/foundations-text-editors#step-1-download-vscode
+## Step 2: Install Visual Studio Code
 
-VS Code Extenstions 
+### Download and Install VSCode
+1. Follow the installation instructions for Visual Studio Code:
+   [VSCode Installation Guide](https://www.theodinproject.com/lessons/foundations-text-editors#step-1-download-vscode)
 
-- Prettier - Code formatter 
-  - Prettier.io 
-- Code Spell Checker 
-  - streetsidesoftware.com 
-- Live Server 
-  - Ritwick Dey 
-- GitLens — Git supercharged 
-  - gitkraken.com 
-- Flutter 
-  - dartcode.org 
-- Dart 
-  - dartcode.org 
-- HTML CSS Support 
-  - ecmel 
-- ESLint 
-  - microsoft.com
-- JavaScript Debugger (Nightly)
-  - microsoft.com
-- Path Intellisense 
-  - christiankohler.net 
+### Install VS Code Extensions
+1. Prettier - Code formatter ([Prettier.io](https://prettier.io))
+2. Code Spell Checker ([streetsidesoftware.com](https://streetsidesoftware.com))
+3. Live Server ([Ritwick Dey](https://ritwickdey.com))
+4. GitLens — Git supercharged ([gitkraken.com](https://gitkraken.com))
+5. Flutter ([dartcode.org](https://dartcode.org))
+6. Dart ([dartcode.org](https://dartcode.org))
+7. HTML CSS Support ([ecmel](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css))
+8. ESLint ([microsoft.com](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint))
+9. JavaScript Debugger (Nightly) ([microsoft.com](https://marketplace.visualstudio.com/items?itemName=ms-vscode.js-debug-nightly))
+10. Path Intellisense ([christiankohler.net](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense))
 
-## Set up Development Environment 
+## Step 3: Set Up Development Environment
+
+### Update and Install Essential Packages
+```
+sudo apt-get update
+sudo apt-get install git
+git --version
+```
+```
+export PATH="$PATH:/usr/bin"
+source ~/.bashrc
+```
+```
+sudo apt install clang cmake ninja-build pkg-config
+sudo snap install curl
+```
+Step 4: Install Java Development Kit
+```
+sudo apt update
+sudo apt install openjdk-8-jdk
+java -version
+
+export JAVA_HOME=/usr/lib/jvm/openjdk-8
+export PATH=$JAVA_HOME/bin:$PATH
+source ~/.bashrc
+```
 
 #### Step 1: Download Flutter SDK (software development kit) 
 ```
 cd ~/Downloads
-sudo snap install curl
 curl -LO https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.3.10-stable.tar.xz
 ```
 
