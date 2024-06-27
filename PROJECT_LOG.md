@@ -39,6 +39,7 @@ VS Code Extenstions
 #### Step 1: Download Flutter SDK (software development kit) 
 ```
 cd ~/Downloads
+sudo snap install curl
 curl -LO https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.3.10-stable.tar.xz
 ```
 
