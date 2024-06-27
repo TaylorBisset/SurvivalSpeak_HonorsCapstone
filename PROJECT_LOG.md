@@ -1,15 +1,21 @@
 # Project Log 
 
 Follow installation instructions for **Virtual Machine (Recommended)** VirtualBox and Xubuntu 
+
 https://www.theodinproject.com/lessons/foundations-installations#step-1-download-virtualbox-and-xubuntu
 - Base Memory: 8192 MB 
 - Processors: 4 
 - Storage: Controller SATA with Xubuntu.vdi 60.00 GB
 
 Follow installation instructions for VSCode 
+
 https://www.theodinproject.com/lessons/foundations-text-editors#step-1-download-vscode
 
-
+VS Code Extenstions 
+- Prettier - Code formatter 
+  - Prettier.io 
+- Code Spell Checker 
+  - streetsidesoftware.com 
 
 ## Set up Development Environment 
 
