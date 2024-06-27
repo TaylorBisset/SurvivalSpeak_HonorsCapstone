@@ -28,7 +28,9 @@ VS Code Extenstions
 - HTML CSS Support 
   - ecmel 
 - ESLint 
-  - microsoft.com 
+  - microsoft.com
+- JavaScript Debugger (Nightly)
+  - microsoft.com
 - Path Intellisense 
   - christiankohler.net 
 
